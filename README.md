@@ -8,7 +8,7 @@ Landing page fictícia com HTML5 e CSS3, focada em design premim, semântica cor
 
 ## ✨ Preview
 
-[!GIF da interface](assets/preview-aurum.gif)
+[GIF da interface](assets/preview-aurum.gif)
 
 ---
 
