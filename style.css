@@ -116,6 +116,7 @@ nav a:hover {
 .hero-text h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+    letter-spacing: -0.02em;;
 }
 
 .hero-text p {
@@ -256,7 +257,36 @@ footer {
     }
 }
 
+@media (max-width:768px) {
+    .hero {
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .hero-img img {
+        max-width: 100%;
+        width: clamp(220px, 60vw, 320px);
+    }
+}
+
 @media (max-width: 600px) {
+    section {
+        padding: 50px 5%;
+    }
+
     header .container {
         flex-direction: column;
         gap: 10px;
@@ -274,7 +304,14 @@ footer {
 
     .hero-img {
         width: 280px;
-    }}
+    }
+
+    .btn-buy {
+        display: inline-block;
+        width: 100%;
+        max-width: 260px;
+    }
+}
     
     @keyframes fadeUp {
         from {
